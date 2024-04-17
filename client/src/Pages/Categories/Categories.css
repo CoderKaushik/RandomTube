@@ -1,0 +1,28 @@
+@keyframes changeColor2 {
+    0%, 100% { background-color: #c53030; }
+    16.67% { background-color: #2b6cb0; }
+    33.33% { background-color: #2f855a; }
+    50% { background-color: #b7791f; }
+    66.67% { background-color: #9c4221; }
+    83.33% { background-color: #c53030; }
+  }
+.animate-color2-change {
+    animation: changeColor2 18s infinite;
+    animation-timing-function: ease-in-out;
+    transition: background-color 1.5s ease-in-out;
+  }
+
+  @keyframes changeColorAndBorder {
+    0%, 100% { background-color: #f56565; border-color: #c53030; }
+    16.67% { background-color: #4299e1; border-color: #2b6cb0; }
+    33.33% { background-color: #48bb78; border-color: #2f855a; }
+    50% { background-color: #f6e05e; border-color: #b7791f; }
+    66.67% { background-color: #ed8936; border-color: #9c4221; }
+    83.33% { background-color: #f56565; border-color: #c53030; }
+  }
+.animate-colorbg-change {
+    animation: changeColorAndBorder 18s infinite;
+    animation-timing-function: ease-in-out;
+    transition: border-color 1.5s ease-in-out;
+    border-style: solid;
+  }
